@@ -46,6 +46,8 @@
 
 `ping web2.dns.lab`
 
+![Image alt](https://github.com/NikPuskov/DNS/blob/main/dns1.jpg)
+
 Видим, что client видит обе зоны (dns.lab и newdns.lab), однако информацию о хосте web2.dns.lab он получить не может.
 
 Проверка на client2:
@@ -55,6 +57,8 @@
 `ping web1.dns.lab`
 
 `ping web2.dns.lab`
+
+![Image alt](https://github.com/NikPuskov/DNS/blob/main/dns2.jpg)
 
 Видим, что client2 видит всю зону dns.lab и не видит зону newdns.lab
 
